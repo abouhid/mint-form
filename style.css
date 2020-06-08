@@ -1,5 +1,7 @@
 body{
     background-color: #ECEEF1;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* Header */
@@ -15,14 +17,13 @@ height: 5vw;
 .left-header{
     color: #505050;
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
     margin-right: 10px;
     text-align: right;
 }
 .left-header p{
     margin: 0;
 }
-.left-header a{
+a{
     color: #0077C5;
     text-decoration: none;
 }
@@ -43,23 +44,35 @@ i{
     height: 34px;
 }
 
+/* Form */
+
 
 .box{
-    height: 125vh;
-    border-color: aqua;
     width: 26vw;
     background-color:white;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    display: inline-block;
 }
 h3{
     color: #4C4C4C;
-    font-size: 24px;
+    font-size: 1.6vw;
     position: relative;
-    top: 25px;
+
+}
+.title{
+    display: inline-block;
+    align-content: center;
 }
 
 #sub-text{
-    font-size: 15px;
+    font-size: 1vw;
 }
+
+.form-block{
+    margin-top: 35px;
+}
+
 .link{
     color: #0077C5;
     text-decoration: none;
@@ -68,14 +81,15 @@ h3{
 .mail{
     float: left;
     position: relative;
-    left: 20px;
-    bottom: 11px;
+    left: 2vw;
+    bottom: 1vw;
     color: #4C4C4C;
+    font-size: 1vw;
 
 }
 .email{
     width: 22vw;
-    height: 6vh;
+    height: 3vh;
 }
 #bottom-txt{
     font-size: 12px;
@@ -86,22 +100,26 @@ h3{
 .terms-txt{
     font-size: 12px;
     position: relative;
-    color: #4C4C4C;
-    left: 53px;
+    color: #757575;
     display: flex;
+    margin-top: 45px;
+    width:20vw;
 }
 .captcha-txt{
-    position: relative;
+    text-align: center;
     color: #4C4C4C;
     left: 39px;
-    display: flex;
+    display: block;
     font-size: 10px;
+    background-color: #ECEEF1;
+    height: 3vw;
 }
 #account{
     background-color: #0077C5;
     border-color: #0077C5;
     color: white;
     border: none;
-    height: 10vh;
+    height: 6vh;
     width: 20vw;
+    margin-top: 25px;
 }
