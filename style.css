@@ -7,7 +7,7 @@ body{
 /* Header */
 
 .nav-bar{
-padding: 10px 30px 10px 30px;
+padding: 10px 30px 0px 30px;
 height: 5vw;
 }
 .header-container{
@@ -45,11 +45,22 @@ i{
 }
 .tools{
     padding: 10px;
-    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    display: inline-flex;
+    
+}
+.tools a{
+    color: #505050; 
+    padding-left: 5px;
 }
 .icons{
     height: 23px;
     width: 23px;
+    padding-left: 5px;
+}
+.icon-names{
+    
 }
 
 
@@ -108,7 +119,7 @@ i{
     border-radius: 3px;
 }
 #bottom-txt{
-    font-size: 1vw;
+    font-size: 10px;
     color: #4C4C4C;
     position: relative;
     float: left;
@@ -132,6 +143,7 @@ i{
     width: 100%;
     margin: 30px 0px 30px 0px;
     border-radius: 4px;
+    font-size: 15.75px;
 }
 .captcha-txt{
     color: #8D9096;
@@ -147,11 +159,11 @@ i{
 .footer{
     color: #4c4c4c;
     font-size: 12px;
-    padding:20px 0px 20px 10px;
+    padding:40px 0px 20px 0px;
     line-height: 1.5;
 }
 .line-space a{
- padding-left: 6px;
+ padding-right: 12px;
  color: #505050;
 }
 .line-space:hover{
