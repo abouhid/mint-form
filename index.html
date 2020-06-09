@@ -2,6 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -15,10 +16,10 @@
   <body>
     <nav class="nav-bar">
       <div class="header-container">
-        <span class="left-header">
+        <div class="left-header">
           <p>Already have an Intuit account?</p>
           <a href="#"><p>I forgot my User ID or Password</p></a>
-        </span>
+        </div>
         <span>
           <button><i class="fa fa-lock" aria-hidden="true"></i> Sign In</button>
         </span>
@@ -27,25 +28,25 @@
 
     <header>
       <div>
-        <a href="#"><img src="image.png" /></a>
+        <a href="#"><img src="image.png" alt="image" /></a>
       </div>
       <div class="tools">
         <a href="#"
           ><img
             class="icons"
-            src="https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg"
+            src="https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg" alt="image"
         /></a>
         <a href="#"><span class="icon-names">mint</span></a>
         <a href="#"
           ><img
             class="icons"
-            src="https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg"
+            src="https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg" alt="image"
         /></a>
         <a href="#"><span class="icon-names">quickbooks</span></a>
         <a href="#"
           ><img
             class="icons"
-            src="https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg"
+            src="https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg" alt="image"
         /></a>
         <a href="#"><span class="icon-names">turbotax</span></a>
       </div>
@@ -76,7 +77,7 @@
           </div>
           <div class="info-block">
             <label class="mail" for="E-mail">Phone (recommended)</label>
-            <input type="text" name="email" id="email" class="email" required />
+            <input type="text" name="email"  class="email" required />
           </div>
           <span id="bottom-txt">
             Standard call, messaging or data rates may apply.
@@ -93,7 +94,7 @@
             />
           </div>
 
-          <button id="account">
+          <button id="account" type="button">
             <i class="fa fa-lock" aria-hidden="true"></i> Create Account
           </button>
           <span class="terms-txt"
@@ -109,7 +110,7 @@
       </div>
     </main>
 
-    <center>
+    
       <footer class="footer">
         <span class="line-space"><a>Legal</a></span
         ><span class="line-space"><a>Privacy</a></span
@@ -121,6 +122,5 @@
         Terms and conditions, features, support, pricing, and service options
         subject to change without notice.
       </footer>
-    </center>
-  </body>
+      </body>
 </html>
