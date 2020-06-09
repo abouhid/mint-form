@@ -43,6 +43,16 @@ i{
     font-weight: normal;
     height: 34px;
 }
+.tools{
+    padding: 10px;
+    align-items: center;
+}
+.icons{
+    height: 23px;
+    width: 23px;
+}
+
+
 
 /* Form */
 
@@ -136,10 +146,14 @@ i{
 
 .footer{
     color: #4c4c4c;
-    font-size: smaller;
-    padding:10px 0px 0px 10px;
+    font-size: 12px;
+    padding:20px 0px 20px 10px;
     line-height: 1.5;
 }
-#line-space{
+.line-space a{
  padding-left: 6px;
+ color: #505050;
 }
+.line-space:hover{
+    text-decoration: underline;     
+   }
