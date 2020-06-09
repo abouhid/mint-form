@@ -111,6 +111,7 @@ i{
     position: relative;
     color: #757575;
     padding: 30px;
+    line-height: 1.8;
 }
 #account{
     background-color: #0077C5;
@@ -129,4 +130,16 @@ i{
     height: 30px;
     margin: 0px -30px -30px -30px;
     padding-top: 20px;
+}
+
+/* footer */
+
+.footer{
+    color: #4c4c4c;
+    font-size: smaller;
+    padding:10px 0px 0px 10px;
+    line-height: 1.5;
+}
+#line-space{
+ padding-left: 6px;
 }
